@@ -17,5 +17,4 @@ module.exports = {
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
-  ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}),
 };
